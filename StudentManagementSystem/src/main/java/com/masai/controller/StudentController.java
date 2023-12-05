@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.masai.model.Student;
 import com.masai.service.StudentService;
 
-@CrossOrigin(origins = "http://127.0.0.1:5500/index.html")
+@CrossOrigin(origins = "http://127.0.0.1:5500")
 @RestController
 public class StudentController {
 	
